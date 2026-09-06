@@ -1,0 +1,15 @@
+- [ ] Update metadata to reflect new repository
+- [ ] Update "Add Me" button in README to reflect new repository
+- [ ] Add Renovate bot
+- [ ] Update as many versions as possible
+- [ ] Add multi-arch image build-and-push workflow
+- [ ] Add build-check workflow
+- [ ] Add other CI/CD workflows for validation, etc.
+- [ ] Add username and password entries
+- [ ] Add sharing entries
+- [ ] Add `ServerAlias "*"` setting
+- [ ] Add Canon drivers
+- [ ] Add other printer drivers
+- [ ] Redo README
+  - [ ] Add note about the fork, adding credits
+  - [ ] Add note on username/password, sharing
