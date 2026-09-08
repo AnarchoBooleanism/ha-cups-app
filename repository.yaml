@@ -1,4 +1,3 @@
-name: Home Assistant CUPS (+ Airprint) Add-On repository
-url: 'https://github.com/AnarchoBooleanism/cups-addon'
+name: Home Assistant CUPS App
+url: 'https://github.com/AnarchoBooleanism/ha-cups-app'
 maintainer: Nathan Guerrero <anarchbool@anarchbool.dev>
-

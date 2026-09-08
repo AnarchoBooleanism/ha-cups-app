@@ -1,7 +1,7 @@
-name: CUPS
-version: "1.7"
-slug: cupsik
-description: A CUPS print server with working AirPrint
+name: CUPS Print Server
+version: "0.1-dev1"
+slug: cups
+description: CUPS print server for network printing, with Avahi
 arch:
   - amd64
   - aarch64
