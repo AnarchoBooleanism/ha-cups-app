@@ -5,8 +5,8 @@ name: Create and push image to GitHub registry
 
 on: # Only run on new version tag push
   push:
-    branches:
-      - main
+    tags:
+      - '*'
     paths-ignore:
       - '.github/**'
 
@@ -105,8 +105,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           # This system is temporary for now
           tags: |
-            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
-            type=edge
+            type=raw,value=${{ github.ref_name }}
       - name: Create manifest list and push
         working-directory: ${{ runner.temp }}/digests
         run: |
