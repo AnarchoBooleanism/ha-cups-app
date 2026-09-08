@@ -11,5 +11,9 @@
 - [ ] Add Canon drivers
 - [ ] Add other printer drivers
 - [ ] Redo README
+  - [ ] Add instructions
   - [ ] Add note about the fork, adding credits
   - [ ] Add note on username/password, sharing
+- [ ] Add ingress support
+- [ ] Add app setting for ServerAlias (do when ingress support is added)
+- [ ] Look into adding a license, determine what's copyrightable
