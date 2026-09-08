@@ -5,6 +5,7 @@ description: CUPS print server for network printing, with Avahi
 arch:
   - amd64
   - aarch64
+url: https://github.com/AnarchoBooleanism/ha-cups-app
 usb: true
 init: false
 homeassistant_api: true
