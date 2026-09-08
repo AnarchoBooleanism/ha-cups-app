@@ -51,7 +51,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: ./cups
-          file: ./Dockerfile
+          file: ./cups/Dockerfile
           push: true
           platforms: linux/${{ matrix.architecture }}
           tags: ${{ steps.meta.outputs.tags }}
