@@ -7,7 +7,7 @@
 - [ ] Add other CI/CD workflows for validation, etc.
 - [ ] Add username and password entries
 - [ ] Add sharing entries
-- [ ] Add `ServerAlias "*"` setting
+- [X] Add `ServerAlias "*"` setting
 - [ ] Add Canon drivers
 - [ ] Add other printer drivers
 - [ ] Redo README
