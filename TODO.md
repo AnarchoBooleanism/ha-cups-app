@@ -1,5 +1,5 @@
 - [X] Update metadata to reflect new repository
-- [ ] Update "Add Me" button in README to reflect new repository
+- [X] Update "Add Me" button in README to reflect new repository
 - [ ] Add Renovate bot
 - [ ] Update as many versions as possible
 - [ ] Add multi-arch image build-and-push workflow
