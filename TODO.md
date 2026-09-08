@@ -2,7 +2,8 @@
 - [X] Update "Add Me" button in README to reflect new repository
 - [ ] Add Renovate bot
 - [ ] Update as many versions as possible
-- [ ] Add multi-arch image build-and-push workflow
+- [X] Add multi-arch image build-and-push workflow
+  - [ ] Add expanded build-and-push workflow, consider how Home Assistant reads App's config.yaml in this (possibly just use workflow_dispatch with version number instead of doing Git tag, and have that workflow be the one to modify the config.yaml file)
 - [ ] Add build-check workflow
 - [ ] Add other CI/CD workflows for validation, etc.
 - [ ] Add username and password entries
@@ -17,3 +18,5 @@
 - [ ] Add ingress support
 - [ ] Add app setting for ServerAlias (do when ingress support is added)
 - [ ] Look into adding a license, determine what's copyrightable
+- [ ] Consider doing a staging branch where everything is built, before adding to main
+- [ ] Consider adding AppArmor support
