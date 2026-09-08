@@ -1,5 +1,5 @@
 name: CUPS Print Server
-version: "0.1-dev3"
+version: "0.1-dev4"
 slug: cups
 description: CUPS print server for network printing, with Avahi
 arch:
@@ -18,3 +18,4 @@ ports_description:
 # ingress: false
 map:
   - addon_config:rw
+image: ghcr.io/anarchobooleanism/ha-cups-app
