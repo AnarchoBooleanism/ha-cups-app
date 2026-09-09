@@ -1,5 +1,5 @@
 name: CUPS Print Server
-version: "0.1-dev6"
+version: "v0.1-dev7"
 slug: cups
 description: CUPS print server for network printing, with Avahi
 arch:
