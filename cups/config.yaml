@@ -1,12 +1,12 @@
 name: CUPS Print Server
-version: "0.1-dev8"
+version: "0.1-dev9"
 slug: cups
 description: CUPS print server for network printing, with Avahi
 arch:
   - amd64
   - aarch64
 url: https://github.com/AnarchoBooleanism/ha-cups-app
-webui: http://[HOST]:[PORT:631]
+webui: https://[HOST]:[PORT:631]
 startup: services
 usb: true
 init: false
