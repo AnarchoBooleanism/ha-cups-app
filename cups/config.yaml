@@ -6,6 +6,8 @@ arch:
   - amd64
   - aarch64
 url: https://github.com/AnarchoBooleanism/ha-cups-app
+webui: http://[HOST]:[PORT:631]
+startup: services
 usb: true
 init: false
 homeassistant_api: true
