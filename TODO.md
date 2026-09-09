@@ -1,5 +1,7 @@
 - [X] Update metadata to reflect new repository
 - [X] Update "Add Me" button in README to reflect new repository
+- [ ] Add staging and dev branches
+- [X] Set up development environment
 - [ ] Add Renovate bot
 - [ ] Update as many versions as possible
 - [X] Add multi-arch image build-and-push workflow
@@ -18,5 +20,4 @@
 - [ ] Add ingress support
 - [ ] Add app setting for ServerAlias (do when ingress support is added)
 - [ ] Look into adding a license, determine what's copyrightable
-- [ ] Consider doing a staging branch where everything is built, before adding to main
 - [ ] Consider adding AppArmor support
